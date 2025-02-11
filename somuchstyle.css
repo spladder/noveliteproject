@@ -1,0 +1,69 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .header {
+            background-color: #a88d1398;
+            padding: 10px 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header img {
+            height: 60px;
+        }
+        .nav {
+            display: flex;
+            column-gap: 30px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+        a:hover {
+                text-decoration: underline;
+                color: darkblue;
+
+        }
+        .homepage {
+            padding-left: 20%;
+            padding-right: 20%;
+            text-align: center;
+            color: #000000;
+            font-size: 14pt;
+        }
+        .whyus {
+                font-size:14pt;
+                padding-left: 20%;
+                padding-right: 20%;
+                text-align: center;
+                ul {
+                        list-style-type: none;
+                    }
+                list-style-type: none;
+        }
+        div.form {
+            display: block;
+            text-align: center;
+        }
+        form {
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+        }
+        .footer {
+            position: sticky;
+            width: 100%;
+            height: 100%;
+            padding-top: 5%;
+            padding-bottom: 40%;
+            background-color: #131313;
+            text-align: center;
+            font-size: 10px;
+            color: #b9b9b9;
+        }
