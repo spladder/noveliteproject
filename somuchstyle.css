@@ -1,20 +1,23 @@
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-        }
+
         .header {
-            background-color: #a88d1398;
             padding: 10px 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             display: flex;
             justify-content: space-between;
             align-items: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-image: url('background.jpg');
         }
         .header img {
             height: 60px;
         }
+        body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f5f5f5;
+            }
         .nav {
             display: flex;
             column-gap: 30px;
@@ -61,7 +64,7 @@
             width: 100%;
             height: 100%;
             padding-top: 5%;
-            padding-bottom: 40%;
+            padding-bottom: 20%;
             background-color: #131313;
             text-align: center;
             font-size: 10px;
